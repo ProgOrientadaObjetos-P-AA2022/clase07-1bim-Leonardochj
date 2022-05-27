@@ -23,8 +23,10 @@ public class ManejoArrayList {
         profesores[1] = prof2;
         
         for (int i = 0; i < profesores.length; i++) {
-            System.out.printf("%s - %s\n", profesores[i].obtenerNombre(),
-                    profesores[i].obtenerTipo());
+            //System.out.printf("%s - %s\n", profesores[i].obtenerNombre(),
+            //        profesores[i].obtenerTipo());
+            Profesor p = profesores[i];
+            System.out.printf("%s - %s\n", p.obtenerNombre(), p.obtenerTipo());
         }
         
         System.out.println("-----------------------------");

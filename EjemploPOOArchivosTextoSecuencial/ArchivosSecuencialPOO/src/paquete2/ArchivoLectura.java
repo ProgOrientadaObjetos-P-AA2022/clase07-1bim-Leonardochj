@@ -67,7 +67,7 @@ public class ArchivoLectura {
                 String linea = entrada.nextLine(); // Tara Hernandez;contratado
 
                 ArrayList<String> linea_partes = new ArrayList<>(
-                        Arrays.asList(linea.split(";")) // ["Tara Hernandez", "contratado"]
+                        Arrays.asList(linea.split(";")) // ["Tara Hernandez"; "contratado"]
                 );
                 Profesor p = new Profesor(linea_partes.get(0), // Tara Hernandez
                         linea_partes.get(1) // contratado
